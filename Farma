@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registro de Produtos em Falta</title>
+</head>
+<body>
+  <h1>Registro de Produtos em Falta</h1>
+
+  <form>
+    <label for="nomeProduto">Nome do Produto:</label>
+    <input type="text" id="nomeProduto" name="nomeProduto" required>
+
+    <label for="quantidadeClientes">Quantidade de Clientes:</label>
+    <input type="number" id="quantidadeClientes" name="quantidadeClientes" required>
+
+    <input type="submit" value="Registrar">
+  </form>
+
+  <h2>Produtos Registrados em Falta</h2>
+  <table>
+    <tr>
+      <th>Nome do Produto</th>
+      <th>Quantidade de Clientes</th>
+    </tr>
+    <!-- Aqui você pode adicionar os produtos registrados em falta dinamicamente -->
+  </table>
+</body>
+</html>
+
